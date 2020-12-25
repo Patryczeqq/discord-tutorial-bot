@@ -3,8 +3,8 @@ const fs = require("fs");
 const client = new Discord.Client({
     disableEveryone: true,
   });
-const config = require("./botconfig.json");
-const token = config.token;
+const config = require("./Nzg5MDQzNTUyNDM1ODMwODI1.X9sUEg.JWyFTrVGI7-PTGH8WkJiRSdatMI");
+const token = Nzg5MDQzNTUyNDM1ODMwODI1.X9sUEg.JWyFTrVGI7-PTGH8WkJiRSdatMI;
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.categories = fs.readdirSync("./commands/");
@@ -23,4 +23,4 @@ client.prefix = config.prefix;
     require("./events/guild/memberRemove")(message)
   })
 
-  client.login(token);
+  client.login(Nzg5MDQzNTUyNDM1ODMwODI1.X9sUEg.JWyFTrVGI7-PTGH8WkJiRSdatMI);
